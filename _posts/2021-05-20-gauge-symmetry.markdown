@@ -6,11 +6,11 @@ description: "Not that long ago, Lawrence Krauss appeared on Rogan's podcast and
 date:   2019-07-10 09:13:11 +0300
 image: "/images/hopf2.jpg"
 ---
-Not that long ago Lawrence Krauss appeared on Rogan's podcast and we got [this](https://www.youtube.com/watch?v=YP-tPE7WO64) as a result. It also didn't take Eric Weinstein long to decide this explanation wasn't good or intuitive enough, so he thought of [explaining gauge symmetry](https://www.youtube.com/watch?v=2xiEEtoa-_4) it in terms of [fiber bundles](https://en.wikipedia.org/wiki/Fiber_bundle) and he brought up a [Hopf fibration](https://en.wikipedia.org/wiki/Hopf_fibration) to exemplify.
-
-An artist's impression of this mathematical object would look something like this:
+Not that long ago Lawrence Krauss appeared on Rogan's podcast and we got [this](https://www.youtube.com/watch?v=YP-tPE7WO64) as a result. It also didn't take Eric Weinstein long to decide this explanation wasn't good or intuitive enough, so he thought of [explaining gauge symmetry](https://www.youtube.com/watch?v=2xiEEtoa-_4) it in terms of [fiber bundles](https://en.wikipedia.org/wiki/Fiber_bundle) and he brought up a [Hopf fibration](https://en.wikipedia.org/wiki/Hopf_fibration) to exemplify (an artist's impression of this mathematical object would look something like this).
 
 ![crowd](/images/hopf2.jpg){:class="img-responsive"}
+
+
 
 To people struggling to understand the concept, I doubt it's much help. Also the fact that we're calling it gauge invariance (or gauge symmetry) isn't helping either because what we should be calling it is *local phase invariance* the term *gauge* to Hermann Weyl and it comes from various railroad gauges who was trying to do something Einstein did with his theory of general relativity and show that a quantum theory of electromagnetism would be invariant under arbitrary scale changes, but this turned out to be wrong.
 
@@ -39,8 +39,6 @@ But as soon as different time zones need to interact and you need to define the 
 ![connection](/images/connection.png){:class="img-responsive"}
 
 So why do we need a connection, can't we tell exactly how a manifold is curved by the way it is embedded in a higher dimensional space? Well, we can, but it turns out we don't have to use an embedding -- in a stroke of genius, Gauss figured out that you can the curvature of a 2D surface just by angles and distances, without the need to consider the 3D space this surface exists in, and the connection is just that -- it tells you how the surface varies. Physics also involves a lot of differential equations   (which involve operators such as [gradients](https://en.wikipedia.org/wiki/Gradient) and [curls](https://en.wikipedia.org/wiki/Curl_(mathematics))), which work great in flat (Euclidean) manifolds, but the moment your space has some intrinsic curvature, things become problematic, because you need to know how directions (and the tangent space in general) varies from point to point.
-
-![connection](/images/connection.png){:class="img-responsive"}
 
 What does this have to do with our Hopf fibration? Well, a Hopf fibration is nothing more than a [3-sphere](https://en.wikipedia.org/wiki/3-sphere) -- we're all familiar with 2D spheres embedded in flat 3D space, but we can construct them in any number of dimensions. So a fiber bundle is nothing more than a cartesian product of spaces - you have your base space and at each point in this space there's another space (these are the fibers): this combination is the bundle. The Hopf fibration defines the 3-sphere as a basic 2D sphere that has a circle at each point, so if we approximate the Earth and we say it's a sphere and we also assume each point on the Earth can set its own time zone, what we get is a Hopf fibration. Weinstein was merely using it as a teaching tool.
 
