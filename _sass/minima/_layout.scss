@@ -273,9 +273,17 @@
   }
 }
 
-.hover:hover {
-  transform: scale(1.1);
-}
+// .hover {
+//   transform: scale(1.0);
+//   transition: transform 0.15s;
+//   // filter: saturate(100%);
+// }
+//
+// .hover:hover {
+//   transform: scale(1.3);
+//   transition: transform 0.15s;
+//   // filter: saturate(0%);
+// }
 
 ::selection {
   background: #eee /* WebKit/Blink Browsers */

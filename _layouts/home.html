@@ -14,9 +14,10 @@ layout: default
           {{ post.title | escape }}
         </h2>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <div onclick="location.href='{{ post.url | relative_url }}';" class-name="img-responsive"
-          style="height:350px; cursor: pointer; margin-top: 10px; background-position: center; background-size: cover; background-image: url({{post.image}}); margin-bottom: 12px;">
+        <div style="overflow: hidden;">
+          <div class="hover" onclick="location.href='{{ post.url | relative_url }}';" class-name="img-responsive"
+            style="height:350px; cursor: pointer; margin-top: 10px; background-position: center; background-size: cover; background-image: url({{post.image}}); margin-bottom: 12px;">
+          </div>
         </div>
         <div>
           {{ post.description }}
