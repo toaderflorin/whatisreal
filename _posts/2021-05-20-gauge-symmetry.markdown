@@ -34,9 +34,13 @@ Phase is a little bit like deciding when 12:00 noon is, it's essentially arbitra
 
 ![timezones](/images/time-zones.png){:class="img-responsive"}
 
-But as soon as different time zones need to interact and you need to define the notion of simultaneity, things get interesting really fast. Say you are a businessman  and you need to send an email to schedule a meeting or you need to travel across time zones -- if you just use your own local time it's going to cause confusions, so what you need to do is correct it depending on the destination time zone. need to know how various time zones relate to one another, something like *this zone connects to this zone and we have a one hour difference, or we have half an hour, or whatever* so you need a *map* -- or in mathematical terms, a [connection](https://en.wikipedia.org/wiki/Connection_(mathematics)). A connection is just a way of describing how the curvature of the surface varies from place to place in terms of how the tangent vectors on the surface vary.
+But as soon as different time zones need to interact and you need to define the notion of simultaneity, things get interesting really fast. Say you are a businessman  and you need to send an email to schedule a meeting or you need to travel across time zones -- if you just use your own local time it's going to cause confusions, so what you need to do is correct it depending on the destination time zone. need to know how various time zones relate to one another, something like *this zone connects to this zone and we have a one hour difference, or we have half an hour, or whatever* so you need a *map* .
+
+Or in mathematical terms, a [connection](https://en.wikipedia.org/wiki/Connection_(mathematics)).
 
 ![connection](/images/connection.png){:class="img-responsive"}
+
+*A connection is just a way of describing how the curvature of the surface varies from place to place in terms of how the tangent vectors on the surface vary.*
 
 So why do we need a connection, can't we tell exactly how a manifold is curved by the way it is embedded in a higher dimensional space? Well, we can, but it turns out we don't have to use an embedding -- in a stroke of genius, Gauss figured out that you can the curvature of a 2D surface just by angles and distances, without the need to consider the 3D space this surface exists in, and the connection is just that -- it tells you how the surface varies. Physics also involves a lot of differential equations   (which involve operators such as [gradients](https://en.wikipedia.org/wiki/Gradient) and [curls](https://en.wikipedia.org/wiki/Curl_(mathematics))), which work great in flat (Euclidean) manifolds, but the moment your space has some intrinsic curvature, things become problematic, because you need to know how directions (and the tangent space in general) varies from point to point.
 
@@ -49,3 +53,5 @@ So why do we care about all this? We care because the real world is not made out
 ![crowd](/images/onshell.png){:class="img-responsive"}
 
 So we want to have our field equations to obey this momentum energy relationship, but at the same time we want them to be gauge invariant because again, we cannot measure wavefunctions -- we can only tell if a particle is there or not. And since our field equations involve derivatives on vector spaces, but if your space is curved you can't compute them as you would in flat space because you need to also take the curvature into account, so you need to correct for this. Which is why instead of normal directional derivatives we use covariant ones -- they are just regular directional derivatives with the extra correction term.
+
+*Lo and behold, the connection term IS the gauge field.*
