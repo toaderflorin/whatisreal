@@ -9,15 +9,18 @@ layout: default
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+        <h2 style="font-weight: 400;">
+          {{ post.title | escape }}
+          <!-- <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> -->
+        </h2>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-
-        <div class-name="img-responsive"
-          style="height:350px; margin-top: 10px; background-position: center; background-size: cover; background-image: url({{post.image}}); margin-bottom: 12px;">
-        </div>
+        <a>
+          <div onclick="location.href='{{ post.url | relative_url }}';" class-name="img-responsive"
+            style="height:350px; cursor: pointer; margin-top: 10px; background-position: center; background-size: cover; background-image: url({{post.image}}); margin-bottom: 12px;">
+          </div>
+        </a>
         <div>
           {{ post.description }}
         </div>

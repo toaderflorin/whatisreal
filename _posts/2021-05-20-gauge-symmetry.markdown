@@ -6,11 +6,11 @@ description: "Not that long ago, Lawrence Krauss appeared on Rogan's podcast and
 date:   2019-07-10 09:13:11 +0300
 image: "/images/hopf2.jpg"
 ---
+First of all, *why* do we care about gauge symmetry? We care becaue it is the foundation of physics. If you ask yourself why the atoms in your body hold together, well, it's a mixture of things: it's the Van der Waals force, the electromagnetic force etc. If you're asking yourself why the plantes in the solar system turn around the sun, it's because of general relativity which gives us gravity.
+
 Not that long ago Lawrence Krauss appeared on Rogan's podcast and we got [this](https://www.youtube.com/watch?v=YP-tPE7WO64) as a result. It also didn't take Eric Weinstein long to decide this explanation wasn't good or intuitive enough, so he thought of [explaining gauge symmetry](https://www.youtube.com/watch?v=2xiEEtoa-_4) it in terms of [fiber bundles](https://en.wikipedia.org/wiki/Fiber_bundle) and he brought up a [Hopf fibration](https://en.wikipedia.org/wiki/Hopf_fibration) to exemplify (an artist's impression of this mathematical object would look something like this).
 
 ![crowd](/images/hopf2.jpg){:class="img-responsive"}
-
-
 
 To people struggling to understand the concept, I doubt it's much help. Also the fact that we're calling it gauge invariance (or gauge symmetry) isn't helping either because what we should be calling it is *local phase invariance* the term *gauge* to Hermann Weyl and it comes from various railroad gauges who was trying to do something Einstein did with his theory of general relativity and show that a quantum theory of electromagnetism would be invariant under arbitrary scale changes, but this turned out to be wrong.
 
@@ -42,7 +42,7 @@ So why do we need a connection, can't we tell exactly how a manifold is curved b
 
 What does this have to do with our Hopf fibration? Well, a Hopf fibration is nothing more than a [3-sphere](https://en.wikipedia.org/wiki/3-sphere) -- we're all familiar with 2D spheres embedded in flat 3D space, but we can construct them in any number of dimensions. So a fiber bundle is nothing more than a cartesian product of spaces - you have your base space and at each point in this space there's another space (these are the fibers): this combination is the bundle. The Hopf fibration defines the 3-sphere as a basic 2D sphere that has a circle at each point, so if we approximate the Earth and we say it's a sphere and we also assume each point on the Earth can set its own time zone, what we get is a Hopf fibration. Weinstein was merely using it as a teaching tool.
 
-*Our wavefunction is a mathematical object that lives in one of these geometrical constructions and the extra degrees of freedom in the bundle represents gauge freedom.*
+*Our wavefunction is a mathematical object that lives in one of these geometrical constructions and the extra degrees of freedom in the bundle represent gauge freedom.*
 
 So why do we care about all this? We care because the real world is not made out of one particle, there are more of them. And the moment you want to describe multiple interacting particles (say you have a bunch of electrons), you can't use Schrodinger's equation anymore, you need to use [quantum field theory](https://en.wikipedia.org/wiki/Quantum_field_theory) which models fields as a set of harmonical oscillators at each point in space (and takes the view that particles are local excitations in this field), so in a sense it resembles a mattress with just a pinch of extra complication to make things interesting. If the springs were just standing there, minding there own business, each oscillating on its own, the field would be gauge invariant no problem, but QFT defines particles differently. Most people are familiar with ![crowd](/images/emc2.svg){:class="formula"} but that just gives you the rest mass of a particle, the actual formula is ![crowd](/images/energy-mom.svg) which also involves momentum and if you pay close attention, it also contains negative energy solutions (which represents antimatter -- the bottom hyperboloid).
 
