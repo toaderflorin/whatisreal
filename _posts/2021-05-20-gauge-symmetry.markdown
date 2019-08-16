@@ -12,13 +12,15 @@ Not that long ago Lawrence Krauss appeared on Rogan's podcast and we got [this](
 
 ![crowd](/images/hopf2.jpg){:class="img-responsive"}
 
-To people struggling to understand the concept, I doubt it's much help. Also the fact that we're calling it gauge invariance (or gauge symmetry) isn't helping either because what we should be calling it is *local phase invariance* the term *gauge* to Hermann Weyl and it comes from various railroad gauges who was trying to do something Einstein did with his theory of general relativity and show that a quantum theory of electromagnetism would be invariant under arbitrary scale changes, but this turned out to be wrong.
+To people struggling to understand the concept, I doubt it's much help. Also the fact that we're calling it gauge invariance (or gauge symmetry) isn't helping either because what we should be calling it is *local phase invariance* -- we owe the term *gauge* to Hermann Weyl (it comes from various railroad gauges) who was trying to do something Einstein did with his theory of general relativity and show that a quantum theory of electromagnetism would be invariant under arbitrary scale changes, but this turned out to be wrong.
 
 Endless ink has been spilled about what quantum mechanics *means* and it's not something we'll settle anytime soon (nor is it the subject of this article) but because of the random nature of the theory and wave-particle duality, quantum mechanics uses wave functions that ascribe *probability* to events and we have equations to describe how these functions evolve in time. A fairly localized wavefunction for a particle propagating through space would look something like this the following image.
 
 ![wave](/images/wave.gif)
 
-Of course, setting up an experiment that aims to detect whether the particle is there, will not find a spread, it will find a precise location, even thoughthe wavy part is still there -- and whenever we're dealing with waves we have *amplitudes* and *phases*, so physicists love to use complex numbers because of [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula). It also gives us the unit circle for complex numbers with an amplitude of 1.
+Of course, setting up an experiment that aims to detect whether the particle is there, will not find a spread, it will find a precise location, even though the wavy part is still there -- and whenever we're dealing with waves we have *amplitudes* and *phases*, physicists love to use complex numbers because of [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula).
+
+It also gives us the unit circle for complex numbers with an amplitude of 1.
 
 ![circle](/images/circle.png){:class="img-responsive"}
 
@@ -42,7 +44,7 @@ Or in mathematical terms, a [connection](https://en.wikipedia.org/wiki/Connectio
 
 *A connection is just a way of describing how the curvature of the surface varies from place to place in terms of how the tangent vectors on the surface vary.*
 
-So why do we need a connection, can't we tell exactly how a manifold is curved by the way it is embedded in a higher dimensional space? Well, we can, but it turns out we don't have to use an embedding -- in a stroke of genius, Gauss figured out that you can the curvature of a 2D surface just by angles and distances, without the need to consider the 3D space this surface exists in, and the connection is just that -- it tells you how the surface varies. Physics also involves a lot of differential equations   (which involve operators such as [gradients](https://en.wikipedia.org/wiki/Gradient) and [curls](https://en.wikipedia.org/wiki/Curl_(mathematics))), which work great in flat (Euclidean) manifolds, but the moment your space has some intrinsic curvature, things become problematic, because you need to know how directions (and the tangent space in general) varies from point to point.
+Why do we need a connection, can't we tell exactly how a manifold is curved by the way it is embedded in a higher dimensional space? Well, we can, but it turns out we don't have to use an embedding -- in a stroke of genius, Gauss figured out that you can the curvature of a 2D surface just by angles and distances, without the need to consider the 3D space this surface exists in, and the connection is just that -- it tells you how the surface varies. Physics also involves a lot of differential equations, which work great in flat (Euclidean) manifolds, but the moment your space has some intrinsic curvature, things become problematic, because you need to know how directions (and the tangent space in general) varies from point to point.
 
 What does this have to do with our Hopf fibration? Well, a Hopf fibration is nothing more than a [3-sphere](https://en.wikipedia.org/wiki/3-sphere) -- we're all familiar with 2D spheres embedded in flat 3D space, but we can construct them in any number of dimensions. So a fiber bundle is nothing more than a cartesian product of spaces - you have your base space and at each point in this space there's another space (these are the fibers): this combination is the bundle. The Hopf fibration defines the 3-sphere as a basic 2D sphere that has a circle at each point, so if we approximate the Earth and we say it's a sphere and we also assume each point on the Earth can set its own time zone, what we get is a Hopf fibration. Weinstein was merely using it as a teaching tool.
 
@@ -52,8 +54,8 @@ So why do we care about all this? We care because the real world is not made out
 
 ![crowd](/images/onshell.png){:class="img-responsive"}
 
-So we want to have our field equations to obey this momentum energy relationship, but at the same time we want them to be gauge invariant because again, we cannot measure wavefunctions -- we can only tell if a particle is there or not. And since our field equations involve derivatives on vector spaces, but if your space is curved you can't compute them as you would in flat space because you need to also take the curvature into account, so you need to correct for this. Which is why instead of normal directional derivatives we use covariant ones -- they are just regular directional derivatives with the extra correction term.
+So we want to have our field equations to obey this momentum energy relationship, but at the same time we want them to be gauge invariant because again, we cannot measure wavefunctions -- we can only tell if a particle is there or not and since our field equations involve derivatives on vector spaces. But if your space is curved you can't compute them as you would in flat space because you need to also take the curvature into account, hence the need to correct for it. Which is why instead of normal directional derivatives, we use covariant ones -- they are just regular directional derivatives with an extra correction term, which is none other than the connection.
 
 *Lo and behold, the connection term IS the gauge field.*
 
-This is really a profound thing -- *why* would this be the case?
+This is really a profound thing -- *why* would this be the case? I guess we won't really know until we know what spacetime actually *is*. And for that we need a theory of quantum gravity
