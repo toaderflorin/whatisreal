@@ -6,7 +6,7 @@ description: "Not that long ago, Lawrence Krauss appeared on Rogan's podcast and
 date:   2019-07-10 09:13:11 +0300
 image: "/images/hopf2.jpg"
 ---
-Not that long ago Lawrence Krauss appeared on Rogan's podcast and we got [this](https://www.youtube.com/watch?v=YP-tPE7WO64) as a result. It also didn't take Eric Weinstein long to decide this explanation wasn't good or intuitive enough, so he thought of [explaining gauge symmetry](https://www.youtube.com/watch?v=2xiEEtoa-_4) it in terms of [fiber bundles](https://en.wikipedia.org/wiki/Fiber_bundle) and he brought up a [Hopf fibration](https://en.wikipedia.org/wiki/Hopf_fibration) to exemplify (an artist's impression of this mathematical object would look something like this).
+Not that long ago, Lawrence Krauss appeared on Rogan's podcast and we got [this](https://www.youtube.com/watch?v=YP-tPE7WO64) as a result. It also didn't take Eric Weinstein long to decide this explanation wasn't good or intuitive enough, so he thought of [explaining gauge symmetry](https://www.youtube.com/watch?v=2xiEEtoa-_4) it in terms of [fiber bundles](https://en.wikipedia.org/wiki/Fiber_bundle) and he brought up a [Hopf fibration](https://en.wikipedia.org/wiki/Hopf_fibration) to exemplify (an artist's impression of this mathematical object would look something like this).
 
 ![crowd](/images/hopf2.jpg){:class="img-responsive"}
 
