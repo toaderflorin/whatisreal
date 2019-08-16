@@ -14,7 +14,7 @@ Not that long ago Lawrence Krauss appeared on Rogan's podcast and we got [this](
 
 To people struggling to understand the concept, I doubt it's much help. Also the fact that we're calling it gauge invariance (or gauge symmetry) isn't helping either because what we should be calling it is *local phase invariance* -- we owe the term *gauge* to Hermann Weyl (it comes from various railroad gauges) who was trying to do something Einstein did with his theory of general relativity and show that a quantum theory of electromagnetism would be invariant under arbitrary scale changes, but this turned out to be wrong.
 
-Endless ink has been spilled about what quantum mechanics *means* and it's not something we'll settle anytime soon (nor is it the subject of this article) but because of the random nature of the theory and wave-particle duality, quantum mechanics uses wave functions that ascribe *probability* to events and we have equations to describe how these functions evolve in time. A fairly localized wavefunction for a particle propagating through space would look something like this the following image.
+Endless ink has been spilled about what quantum mechanics *means* and it's not something we'll settle anytime soon (nor is it the subject of this article) but because of the random nature of the theory and wave-particle duality, quantum mechanics uses wave functions that ascribe *probability* to events and we have equations to describe how these functions evolve in time. A fairly localised wavefunction for a particle propagating through space would look something like this the following image.
 
 ![wave](/images/wave.gif)
 
@@ -24,7 +24,7 @@ It also gives us the unit circle for complex numbers with an amplitude of 1.
 
 ![circle](/images/circle.png){:class="img-responsive"}
 
-Regardless of what science popularizers like Krauss tried to do, there is no magic anecdote that will make you understand it and there's no a-ha! moment, because at its core this is a feature of the mathematical underlying model. But before explaining what a "gauge" symmetry is, we need to explain what symmetry is in general mathematical terms and there's a bit of confusion going around: when people think of the term *symmetry*, they think about this sort of thing, but it's important to point out this is a specific kind of symmetry -- it's *mirror symmetry* which is simply *invariance* under flipping the object around an axis (and this symmetry corresponds to that particular axis).
+Regardless of what science popularisers like Krauss tried to do, there is no magic anecdote that will make you understand it and there's no a-ha! moment, because at its core this is a feature of the mathematical underlying model. But before explaining what a "gauge" symmetry is, we need to explain what symmetry is in general mathematical terms and there's a bit of confusion going around: when people think of the term *symmetry*, they think about this sort of thing, but it's important to point out this is a specific kind of symmetry -- it's *mirror symmetry* which is simply *invariance* under flipping the object around an axis (and this symmetry corresponds to that particular axis).
 
 ![butterfly](/images/butterfly.jpg){:class="img-responsive"} ![spherical](/images/spherical.png)
 
