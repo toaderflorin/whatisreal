@@ -55,3 +55,5 @@ So why do we care about all this? We care because the real world is not made out
 So we want to have our field equations to obey this momentum energy relationship, but at the same time we want them to be gauge invariant because again, we cannot measure wavefunctions -- we can only tell if a particle is there or not. And since our field equations involve derivatives on vector spaces, but if your space is curved you can't compute them as you would in flat space because you need to also take the curvature into account, so you need to correct for this. Which is why instead of normal directional derivatives we use covariant ones -- they are just regular directional derivatives with the extra correction term.
 
 *Lo and behold, the connection term IS the gauge field.*
+
+This is really a profound thing -- *why* would this be the case?
