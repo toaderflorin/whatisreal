@@ -12,7 +12,7 @@ Not that long ago, Lawrence Krauss appeared on Rogan's podcast and we got [this]
 
 To people struggling to understand the concept, I doubt it's much help. Also the fact that we're calling it gauge invariance (or gauge symmetry) isn't helping either because what we should be calling it is *local phase invariance* -- we owe the term *gauge* to Hermann Weyl (it comes from various railroad gauges) who was trying to do something Einstein did with his theory of general relativity and show that a quantum theory of electromagnetism would be invariant under arbitrary scale changes, but this turned out to be wrong.
 
-Endless ink has been spilled about what quantum mechanics *means* and it's not something we'll settle anytime soon (nor is it the subject of this article) but because of the random nature of the theory and wave-particle duality, quantum mechanics uses wave functions that ascribe *probability* to events and we have equations to describe how these functions evolve in time. A fairly localised wavefunction for a particle propagating through space would look something like this the following image.
+Endless ink has been spilled about what quantum mechanics *means* and it's not something we'll settle anytime soon (nor is it the subject of this article) but because of the random nature of the theory and wave-particle duality, quantum mechanics uses wave functions that ascribe *probability* to events and we have equations to describe how these functions evolve in time. A fairly localised wavefunction for a particle propagating through space would look something like this:
 
 ![wave](/images/wave.gif)
 
