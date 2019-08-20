@@ -3,7 +3,7 @@ layout: post
 title:  "Gauge Symmetry In A Nutshell"
 description: "Not that long ago, Lawrence Krauss appeared on Rogan's podcast and we got this as a result. Eric Weinstein decided this explanation wasn't good or intuitive enough, so he thought of explaining gauge symmetry in terms of fiber bundles and he brought up a Hopf fibration to exemplify. To people struggling to understand the concept, I doubt it's much help.
 "
-date:   2019-07-10 09:13:11 +0300
+date:   2019-05-20 09:13:11 +0300
 image: "/images/hopf2.jpg"
 ---
 Not that long ago, Lawrence Krauss appeared on Rogan's podcast and we got [this](https://www.youtube.com/watch?v=YP-tPE7WO64) as a result. It also didn't take Eric Weinstein long to decide this explanation wasn't good or intuitive enough, so he thought of [explaining gauge symmetry](https://www.youtube.com/watch?v=2xiEEtoa-_4) it in terms of [fiber bundles](https://en.wikipedia.org/wiki/Fiber_bundle) and he brought up a [Hopf fibration](https://en.wikipedia.org/wiki/Hopf_fibration) to exemplify (an artist's impression of this mathematical object would look something like this).
@@ -52,8 +52,10 @@ So why do we care about all this? We care because the real world is not made out
 
 ![crowd](/images/onshell.png){:class="img-responsive"}
 
-So we want to have our field equations to obey this momentum energy relationship, but at the same time we want them to be gauge invariant because again, we cannot measure wavefunctions -- we can only tell if a particle is there or not and since our field equations involve derivatives on vector spaces. But if your space is curved you can't compute them as you would in flat space because you need to also take the curvature into account, hence the need to correct for it. Which is why instead of normal directional derivatives, we use covariant ones -- they are just regular directional derivatives with an extra correction term, which is none other than the connection.
+So we want to have our field equations to obey this momentum energy relationship, but at the same time we want them to be gauge invariant because again, we cannot measure wavefunctions -- we can only tell if a particle is there or not and since our field equations involve derivatives on vector spaces. But if your space is curved you can't compute them as you would in flat space because you need to also take the curvature into account, hence the need to correct for it. Which is why instead of normal directional derivatives, we use [covariant ones](https://en.wikipedia.org/wiki/Covariant_derivative) -- they are just regular directional derivatives with an extra correction term, which is none other than the connection, where *e* is the [coupling constant](https://en.wikipedia.org/wiki/Coupling_constant) (or the strength of the interaction).
 
-*Lo and behold, the connection term describes PRECISELY the gauge field.*
+![crowd](/images/covariant.svg){:class="img-responsive"}
 
-This is really a profound thing -- *why* would this be the case? I guess we won't really know until we know what spacetime actually *is*. And for that we need a theory of quantum gravity.
+*Lo and behold, the connection term describes PRECISELY the gauge field -- in the case of the electron field, the gauge field is the photon field. For quarks, it's the gluon field and so forth.*
+
+This is really a profound thing -- *why* would this be the case?
