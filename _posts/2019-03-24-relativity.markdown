@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "What Exactly Was Bothering Einstein?"
-description: "In 1905, a young Albert Einstein put out a paper which he called <i>Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)</i> that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer dependent.
+description: "In 1905, a young Albert Einstein put out a paper which he called <i>Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)</i> that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer-dependent.
 "
 date:   2019-03-24 11:13:11 +0300
 image: "/images/einstein.jpeg"
 ---
-In 1905, a young Albert Einstein put out a paper which he called *Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)* that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer dependent.
+In 1905, a young Albert Einstein put out a paper which he called *Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)* that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer-dependent.
 
 And as strange as that sounds, you have to consider the fact that nobody walks around and thinks <i>hmm, I think that if I move at a certain speed relative to the Earth, time would have to pass slower for me</i> without a very strong reason, yet Einstein's theory says this absolutely must happen, it gives us the *exact rate* at which it happens and we can also build very precise atomic clocks that can measure differences in the passage of time and they are in perfect agreement with predictions.
 

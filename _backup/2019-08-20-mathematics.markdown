@@ -3,7 +3,7 @@ layout: post
 title:  "The Reasonable Ineffectiveness Of Mathematics In Natural Sciences"
 description: "
 "
-date:   2019-03-24 11:13:11 +0300
+date:   2019-08-20 11:13:11 +0300
 image: "/images/einstein.jpeg"
 ---
 If you follow math [channels](https://www.youtube.com/watch?v=w-I6XTVZXww) on the internet, you may have heard that 1 + 2 + 3 + ... is no longer infinity but now equals -1/12 and you may even wonder how this strange turn of events came to be, because it's not what your elementary math school teacher thought you.

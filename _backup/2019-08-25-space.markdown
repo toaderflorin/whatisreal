@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Is Space Real?"
+description: "Philosophy has no shortage of discussions about time. Newton thought space and time are absolute. Leibniz strongly disagreed and concluded that space and time are most likely some kind of network of relationships.
+"
+date:   2019-08-21 09:13:11 +0300
+image: "/images/nightskys.jpg"
+---
+If you are into philosophy, you might have heard the term *manifold substantivalism*.
+
+Now, that sounds like one of those ridiculous questions because if you look around, there is definitely space and there is definitely "stuff" in space

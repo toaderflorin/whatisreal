@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Time Is Probably An Illusion"
+description: "Philosophy has no shortage of discussions about time. Newton thought space and time are absolute. Leibniz strongly disagreed and concluded that space and time are most likely some kind of network of relationships.
+"
+date:   2019-08-21 09:13:11 +0300
+image: "/images/nightskys.jpg"
+---
+There are few things as beautiful than a night sky on a really clear night and if you've ever camped at high altitude where the air is more rarefied and there is little light pollution you know this. But as fascinating as the spectacle is, what's even more fascinating is a lot of stars we see are actually galaxies and they are hundreds of millions of lightyears away, so the night sky is a window into the distant past.
+
+![wave](/images/nightsky.jpg)
+
+And yet... the funny thing is photons don't experience time -- they live their entire existence in an instant, from the moment they are emitted to the moment we observe them here. If you don't believe me, just plug in *c* for the relative observer in the [Lorentz transforms](https://en.wikipedia.org/wiki/Lorentz_transformation) and you'll see. What to us is hundred of millions of years, to something travelling at the speed of light is zero. That is the beauty of relativity.
+
+We human beings have this intuition of *synchronicity*, if we're talking to a loved one on the phone for example, we have a sense of what they are doing *now*,
+
+![wave](/images/worldline2.png)
+
+But because of the constancy of the speed of light, this plane depends on the observer speed.
+
+![wave](/images/simultaneity.gif)
+
+When his friend, Michelle Basso died in early 1955, Einstein wrote to Basso's family:  
+
+*"Now he has departed from this strange world a little ahead of me. That signifies nothing. For those of us who believe in physics, the distinction between past, present and future is only a stubbornly persistent illusion."*
+
+He would follow him soon after, but those words stuck with his contemporaries. Isn't that a weird thing to say? Well, relativity is weird. Before Einstein, things were fairly simple -- you have space which is nice and flat and you have stuff that fills this space. If you want to calculate distances or angles between points, you can do that easily. Whether you are doing your calculations in two dimensions, or in three, it's pretty simple, you just use Pythagora's theorem. Physicists look for patterns, for symmetries and if we look at the space around us, there doesn't seem to be a preferred direction or location.
+
+![wave](/images/length.svg)
+
+No matter how you translate or rotate the coordinate system, this length stays the same -- mathematically, this set of transformations forms a [symmetry group](https://en.wikipedia.org/wiki/Continuous_symmetry) and the Euclidean distance is said to be invariant under the *action* of this symmetry group. Relativity is really strange to us because two different observers can report that time passes slower in their reference frame, which is definitely a contradiction. Yet two different observers that are some distance from one another in 3D space report that the objects closer to them are bigger and the other objects are smaller, so there is . By moving around, they realise this is an *illusion* caused by how light reaches their eyes and how images form on their retina.
+
+Space and time can be understood the same -- all we need to do is gain a bit of perspective. Of course, Special Relativity changes all that and this no longer holds -- the problem was that Einstein wasn't a mathematician so he needed a bit of help in formulating his theory under such abstract terms, and this is where his friend and maths mentor came in to help. For special relativity, we need a symmetry that's a little more complicated -- Minkowski found that if you take events happening in 3D space and time, the following quantity is invariant:
+
+![wave](/images/dist4.svg)
+
+This is very interesting -- while space and time hold no absolute value in and of themselves (they are observer dependent), the *spacetime* distance is invariant.
+
+But with the advent of special relativity, we have a big conceptual problem on our hands. In classical physics we can track how a system evolves in [phase space](https://en.wikipedia.org/wiki/Phase_space) (which is just the space of possible states for the system and it consists of the position and momentum for each of the particles in the system in three dimensions) over time, where time is treated as a [parameter](https://en.wikipedia.org/wiki/Parametrization_(geometry)) for this trajectory curve and it's determined by an operator called the [Hamiltonian](https://en.wikipedia.org/wiki/Hamiltonian_mechanics#Mathematical_formalism) which is usually the total energy of the system, but relativity tells us there is no absolute or predefined time direction in 4D space -- nonetheless we can pick an arbitrary [foliation](https://en.wikipedia.org/wiki/Foliation), but that's just a matter of choice and we have plenty of freedom in doing so. The problem however is that position and momentum are fuzzy concepts in quantum mechanics -- there's usually a spread for the values for a particle and we use operators acting on wave-functions to get *probabilistic* predictions.
+
+Of course, special relativity only treats objects and observers moving in uniform motion to one another, so after the success of his theory, he was hard at work with coming up with a more general description of reality. He came up with following thought experiment: he imagined an observer in an elevator that's in accelerated motion under the action some kind of force and a light beam entering a small window. To the observer the light beam would appear as an arc, because of the accelerated motion. The observer's feet would be pushed . Einstein, being a strong proponent of Machian dynamics, realized that the observer cannot tell the difference.
+
+<br/>
+
+![wave](/images/eq2.jpg)
+
+So spacetime is curved and the mass/energy content determines curvature and curvature determine how this content moves. But an even more interesting fact is that over a geometric manifold (that gives us a coordinate system) we have infinite many ways of describing same physical reality because the only thing we care is the *relation* between curvature (given by ta mathematical object )
+
+![wave](/images/hamilton.svg)
+
+It's clear that a theory that fully combines quantum mechanics with relativity needs to treat time on equal footing with space, so we need to also reparametrize time based on some *tau*. So instead of having *x(t), y(t), z(t)*, we would have parametrize *t(τ)*, so we would have *x'(τ), y'(τ), z'(τ), t(τ)*. Because there are a lot of ways to parametrize the same curve, we have a little too much (gauge) freedom and this process involves some [constraints](https://en.wikipedia.org/wiki/Hamiltonian_constraint) on the Hamiltonian. For QM, we also want to raise the functions to the rank of operators. But if you work out the math, while keeping the structure of the equation specific to the Hamiltonian formalism, you get something very strange.
+
+![wave](/images/wheeler.svg)
+
+Which seems to imply there is no such thing as something that resembles global evolution! But how can that be? We clearly observe time, so there must be a way of retrieving this concept.
+
+![wave](/images/bigbang.jpg)
