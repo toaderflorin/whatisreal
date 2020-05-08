@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Early Signs Of Quantum Weirdness"
+description: "Whether it's your wife coming home from the mall with yet another bag that she doesn't need, but she bought it *because it was on sale*, a coworker snapping at you because he had a bad day, or a road rage incident that ended in legal repercussions, human behavior shows no shortage of irrationality and I'm sure you've been left scratching your head on more than one occasion...
+"
+date:   2019-08-19 11:13:11 +0300
+image: "/images/lagrange/lagrange.jpg"
+---
+When Lagrange discovered his brilliant reformulation of Newtonian mechanics, he certainly didn't set out to create quantum mechanics. Neither was Hamilton when he showed that one could derive Lagrangian mechanics from an even simpler mathematical principle, the law of least action. It's funny how sometimes things are hiding in plain sight and we just don't see them, but let's not get ahead of ourselves.
+
+![commodus](/images/lagrange/lagrange.jpg){:class="img-responsive"}
+
+*Physics problems are hard, and a lot of discoveries are accidental.*
+
+In the age of computers, we take our ability to run numerical simulations for granted, but remember that even Newton had to invent calculus just to be able to show that an inverse square law for gravity does indeed produce elliptical orbits for heavenly bodies just as Copernicus had predicted. Even then, more complicated problems such as the three-body problem are unsolvable by analytically. If you have complications such as holonomic constraints (think of a bead-on-a-string type of problem), then things can get very complicated. 
+
+Before getting to these complicated cases, it's worth looking at a simple example: an archer atop a hill shoots an arrow at an angle into the air and at a certain speed (we can agree to ignore air friction to make the problem easier). 
+
+![commodus](/images/lagrange/problem-newton.svg){:class="img-responsive"}
+
+Let's write down some equations of motion, as given to us by Newton.
+
+![commodus](/images/lagrange/newton.svg){:class="img-responsive"}
+
+We can intuitively see the solution to the equation is a parabola. 
+
+But what if we don't want to plot the trajectory for the whole duration of the flight, and we just care about the maximum altitude the arrow reaches on its path? We can very conveniently figure that out using the law of conservation of energy because we know the kinetic energy relative to the up direction at the launch needs to equal the potential energy at the highest point in the path. 
+
+But there's another reason for considering potentials as opposed to forces. Newton was very puzzled by gravity's *action at a distance* implications, but he considered it a problem that would have to be solved by posterity -- in 1692, in his third letter to Bentley, he wrote: *"That one body may act upon another at a distance through a vacuum without the mediation of anything else, by and through which their action and force may be conveyed from one another, is to me so great an absurdity that, I believe, no man who has in philosophic matters a competent faculty of thinking could ever fall into it."* 
+
+It wasn't until the idea of the gravitational potential came along, that this problem was considered solved -- forces are described as [gradients](https://en.wikipedia.org/wiki/Gradient) in this potential.
+
+Let us now turn our attention to a problem with constraints. In the case of a simple pendulum made out of a weight attached to a fixed-length metal rod, we know that weight is never going to be at another distance from the center than L, so it's tracing a circle arc, which is a 1D path. 
+
+![commodus](/images/lagrange/pendulum.svg){:class="img-responsive"}
+
+Wouldn't it then make sense to use a single coordinate to label points in space, and write our equations in terms of energy and potentials (which don't depend on a definition of up-down, left-right, etc., like components of a vector in cartesian space)? That's precisely what the Lagrangian approach to mechanics does. Another reason for using potentials is the fact that constraint forces don't create any effective mechanical work, because they are always perpendicular to the direction of movement, something that the [D'Alembert principle](https://en.wikipedia.org/wiki/D%27Alembert%27s_principle) tells us.
+
+The Euler-Lagrange equation looks like:
+
+![commodus](/images/lagrange/euler-lagrange.svg){:class="img-responsive"}
+
+where the Lagrangian is the difference between kinetic and potential energy. 
+
+![commodus](/images/lagrange/langrangian-diff.svg){:class="img-responsive"}
+
+For a detailed derivation, see this MathPages [article](https://www.mathpages.com/home/kmath523/kmath523.htm). *q* are generalized coordinates (they can be curved, but the curves have to be smooth), and *r* are cartesian coordinates, meaning we can express *r(q)* as a parametric surface or curve. In the case of our pendulum, *q* can be the angle. The generalized coordinates are usually less than the number of cartesian coordinates because of the constraints, but they don't have to be: we can simply choose *different* coordinates that make solving our problem easier, such as spherical coordinates.
+
+But as elegant as this equation is, it turns out there's an even simpler idea, and we can derive Lagrange's equation from it: the principle of least action. We can define the *action* as the integral of the Lagrangian over an arbitraty choosen path. 
+
+![commodus](/images/lagrange/action.svg){:class="img-responsive"}
+
+The path particles take through space is the one that minimizes this value. An example of this principle is Snell's law, which says that light follows the path that takes the shortest time.
+
+![commodus](/images/lagrange/snell2.svg){:class="img-responsive"}
+
+Here's a simple analogy: lifeguards know from experience that if somebody is drowning, the fastest way to reach the victim is not to run straight to them, because they can a lot run faster than they can swim. If the lifeguard is at Q and the victim is at P, they run towards O and then swim from there. Even though the distance is longer, that's the minimum time -- light does the same thing. 
+
+Think about it -- this is strange. *How does light know how to do that?* It needs to go into the *wrong* direction just because it "knows" it will encounter a denser medium. Does light have some kind of foresight? Is there some higher being telling it where to go? In fact, this principle is so remarkable that people at the time thought it was proof of divinity's existence.
+
+Turns out the answer is quantum mechanics. In QM, particles take all available paths, which is one of the things that makes it so strange. Remarcable as it sounds, this seems to be true, and it was Richard Feynman that gave us this description of reality.
+
+![commodus](/images/lagrange/least-action.svg){:style="width: 550px;"}
+
+If you are reading this and wondering *how something can be spread out and at the same time in one place when it’s interacting with something else*, you’ve asked the million-dollar question. Another thing you might have noticed is that light travels in a straight line only because that’s the shortest-time path absent of differences in the medium's density. Could it be that if we consider space to be emergent, that's what directions *are?*
