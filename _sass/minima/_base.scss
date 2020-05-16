@@ -6,7 +6,7 @@ dl, dd, ol, ul, figure {
 }
 
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}  jo$base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -15,6 +15,11 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
+
+  background: url(/images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure,

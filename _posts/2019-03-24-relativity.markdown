@@ -4,13 +4,13 @@ title:  "What Exactly Was Bothering Einstein?"
 description: "In 1905, a young Albert Einstein put out a paper which he called <i>Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)</i> that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer-dependent.
 "
 date:   2019-03-24 11:13:11 +0300
-image: "/images/einstein.jpeg"
+image: "/images/misc/einstein.jpeg"
 ---
 In 1905, a young Albert Einstein put out a paper which he called *Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)* that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer-dependent.
 
 And as strange as that sounds, you have to consider the fact that nobody walks around and thinks <i>hmm, I think that if I move at a certain speed relative to the Earth, time would have to pass slower for me</i> without a very strong reason, yet Einstein's theory says this absolutely must happen, it gives us the *exact rate* at which it happens and we can also build very precise atomic clocks that can measure differences in the passage of time and they are in perfect agreement with predictions.
 
-![einstein](/images/einstein.jpeg){:class="img-responsive"}
+![einstein](/images/misc/einstein.jpeg){:class="img-responsive"}
 
 And of course, relativity isn't exactly new -- we take it for granted now, but before Galilei, people actually believed that heavier objects fall faster than lighter ones. He also introduced the concept of *inertia* centuries ago (an object that is in motion stays in motion and an object that's stationary remains stationary, unless acted upon). He also realized that the concept of *absolute* motion is meaningless and that one can only talk about motion in relation to a frame of reference.
 
@@ -20,14 +20,14 @@ Extremely surprising, this is wrong. Yet in figuring this out, Einstein didn't t
 
 In fact, before Maxwell people used to think as electricity and magnetism as two different phenomena. The existence of strange materials like magnetite that act on certain metals without having to touch them was known for a long time and we also discovered electricity and electric fields -- non other than Benjamin Franklin proved that lighting *actually is* electricity with his famous key and kite experiment. Then something interesting happened: in 1820 [Oersted showed](https://en.wikipedia.org/wiki/Oersted%27s_law) that a moving electric charge generates a magnetic field and in 1834 Faraday carried out his famous [induction experiment](https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction) showing that a magnetic field can create an electric current in a wire, so it was clear that the two phenomena must somehow be related. It was Maxwell who managed to unify the different concepts under one framework which he called *electromagnetism* -- he is credited with creating the first unified field theory in the history of physics. His realization was that if a variable magnetic field creates a variable electric field and vice versa, then what you have is a [transverse wave](https://en.wikipedia.org/wiki/Transverse_wave) and he was even able to calculate the speed at which this wave propagates through space.
 
-![em-wave](/images/em-wave-small.png){:class="img-responsive"}
+![em-wave](/images/misc/em-wave-small.png){:class="img-responsive"}
 
 <br/>
 And to quite a lot of people's surprise, the speed was very close to 300 000 m/s, which is what the speed of light was known to be.
 
 Light was known to have wave like properties for quite some time and naturally it was assumed it propagates through some kind of medium, a medium which was called the [luminiferous aether](https://en.wikipedia.org/wiki/Luminiferous_aether). And sure enough, people did set out to find traces of this aether, with the most famous of the attempts being the Michelson-Morley experiment. It was know at the time that the Earth was moving around the Sun at about 100 000 km/h and that the Sun was also moving around the galactic center, so what Michelson and Morley did was they tried to measure the *difference* in speed between light coming directly from the Sun and light moving perpendicularly using an [interferometer](https://en.wikipedia.org/wiki/Interferometry), in the hope they would be able to infer what that absolute speed of the Earth might be.
 
-![em-wave](/images/ether.jpg){:class="img-responsive"}
+![em-wave](/images/misc/ether.jpg){:class="img-responsive"}
 
 *To their dismay. they didn't find any*.
 
@@ -37,7 +37,7 @@ Einstein would later go on to claim that the Michelson-Morley experiment had no 
 
 >It is known that Maxwell's electrodynamics – as usually understood at the present time – when applied to moving bodies, leads to asymmetries which do not appear to be inherent in the phenomena. Take, for example, the reciprocal electrodynamic action of a magnet and a conductor. The observable phenomenon here depends only on the relative motion of the conductor and the magnet, whereas the customary view draws a sharp distinction between the two cases in which either the one or the other of these bodies is in motion. For if the magnet is in motion and the conductor at rest, there arises in the neighborhood of the magnet an electric field with a certain definite energy, producing a current at the places where parts of the conductor are situated. But if the magnet is stationary and the conductor in motion, no electric field arises in the neighborhood of the magnet. In the conductor, however, we find an electromotive force, to which in itself there is no corresponding energy, but which gives rise – assuming equality of relative motion in the two cases discussed – to electric currents of the same path and intensity as those produced by the electric forces in the former case.
 
-![magnet](/images/induction2.jpg){:class="img-responsive"}
+![magnet](/images/misc/induction2.jpg){:class="img-responsive"}
 
 Faraday's experiment consisted of a magnet and a coil of wire and he showed that a magnet inside the coil creates an electric current in the wire of the coil. Einstein was however concerned with what happens if we move either of the two objects.
 
@@ -72,6 +72,6 @@ Let's exemplify with another thought experiment using the following setup: assum
 
 Einstein's major insight was that the phenomena we see are a byproduct of one's frame of observation (hence *relativity*): *what looks like an electric field to me is a magnetic field to aunt Marge, if she's moving at a relative speed that's big enough.* But there's something else that's even more interesting: if you take the Lorentz transforms and you apply them to something that moves at the speed of light (essentially any elementary particle in the absence of a Higgs field), they tell you that space contracts to zero and time dilates to infinity and pretty much stops flowing.
 
-![dilation](/images/time-dilation.png){:class="img-responsive"}
+![dilation](/images/misc/time-dilation.png){:class="img-responsive"}
 
 Does that mean that these notions are meaningless for individual particles? If so, what are space and time?

@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {% include head.html %}
-
-  <body>
-    <main class="page-content" aria-label="Content">
+  <body style="background: white; color: #333; padding-top: 30px;">
+    <main aria-label="Content">
       <div class="wrapper">
         <p>
           <a href="/">Go back</a>
@@ -12,9 +10,5 @@
         {{ content }}
       </div>
     </main>
-
-    <!-- {% include footer.html %} -->
-
   </body>
-
 </html>

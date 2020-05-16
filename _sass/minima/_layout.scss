@@ -14,34 +14,6 @@
     }
 }
 
-.banner-inner {
-  height: 100vh;
-  background: url(/images/changed.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.banner-inner-title {
-  color: white;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-
-.banner-site-title {
-  color: white;
-  font-size: 35px;
-  font-weight: 400;
-}
-
-.banner-pic {
-  height: 100px;
-  margin-bottom: 10px;
-}
-
 .site-title {
   @include relative-font-size(3.8);
   font-weight: 400;

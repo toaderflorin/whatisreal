@@ -5,11 +5,11 @@ date:   2017-02-18 21:13:11 +0300
 categories:
 description: "There is an urban myth going around that HIV was created in the lab by the CIA as part of some black ops type of program and that the United States government has a cure for it, and while it's fun to speculate if however, one gets into the specifics of the virus, it's easy to dispel this myth...
 "
-image: "/images/hiv1.jpg"
+image: "/images/curing/hiv1.jpg"
 ---
 There is an urban myth going around that HIV was created in the lab by the CIA as part of some "black ops" type of program and that the United States government has a cure for it, and while it's fun to speculate if one gets into the specifics of the virus, it's easy to dispel this myth. Genetic sequencing of the virus seems to point to the fact that HIV is descendant from the SIV (Simian Immunodeficiency Virus) virus and that the first transmission of SIV to HIV in humans took place around 1920 in Kinshasa in the Democratic Republic of Congo (yes, the virus crossed over from primates, but interestingly enough, most primate species seem to be unaffected by the virus).
 
-![image-title-here](/images/hiv1.jpg){:class="img-responsive"}
+![image-title-here](/images/curing/hiv1.jpg){:class="img-responsive"}
 
 The initial AIDS epidemic started in the late ’70s, but it wasn’t recognized as a new disease back then. After an outbreak of various illnesses that were previously very rare like *Pneumocystis carinii pneumonia* or *Kaposi’s Sarcoma* among gay men, it was suspected that the culprit might be a yet undiscovered pathogen that affects the immune system. In 1981 alone there were 270 reported cases of this severe immunodeficiency among gay communities, so it was called *gay-related immune deficiency* or GRID for short.
 
@@ -21,7 +21,7 @@ The HIV virus looks something like the picture from the start of the article and
 
 The reason why HIV destroys T cells was long a mystery. But according to new research, it’s because when T cells get infected, they release chemical inflammation triggers in the bloodstream which attract other T cells through a process called chemotaxis (chemical attraction). This is a normal process used by the immune system to fight infectious agents, but in the case of HIV it creates a vicious circle: the GD4+T cells gang up on HIV infected cells and kill them, and as a result they can also get infected. In time, the T cells get more and more depleted and the infected individual is susceptible to all sorts of infectious diseases that normally would not be deadly.
 
-![image-title-here](/images/hiv2.jpeg){:class="img-responsive"}
+![image-title-here](/images/curing/hiv2.jpeg){:class="img-responsive"}
 
 So why it’s so hard to cure HIV? There are two reasons:
 
@@ -34,7 +34,7 @@ Number 1 is also the reason we have a Hepatitis B vaccine (it’s a DNA virus), 
 
 CD4+T cells are programmed to fight against specific pathogens by being exposed to molecules called antigens, which trigger a differentiation process in these cells. They go from naïve T cells to specialized ones. A vaccine works by exposing the body to dead or weakened pathogens that cannot infect but can still trigger an immune response because they have the respective antigens on the cell membrane (or the virus envelope, in the case of a virus). RNA viruses are sneaky — even the body becomes immune to a certain version of the virus, the virus population can quickly mutate to become undetectable. The old versions of the virus simply die, and the undetectable ones survive. This presents significant challenges for developing a vaccine for HIV.
 
-![image-title-here](/images/hiv3.png){:class="img-responsive"}  
+![image-title-here](/images/curing/hiv3.png){:class="img-responsive"}  
 
 And as you can guess, it’s highly effective — a patient on HAART will have essentially undetectable HIV levels in his/her bloodstream (btw, this is why Charlie Sheen’s doctor was willing to have unprotected sex with him, in case you are wondering), but the question is: why isn’t this approach able to eradicate the virus from the body? The simple answer is HIV can be easily eradicated as long as cells divide. The problem is the virus can find it’s way into the nucleus of cells that don’t divide very often, like bones, the lining of the stomach, etc. The brain is also a formidable [HIV reservoir](https://www.poz.com/article/brain-reservoir-23545-5827).
 
