@@ -24,7 +24,7 @@ It also gives us the unit circle for complex numbers with an amplitude of 1.
 
 Regardless of what science popularisers like Krauss tried to do, there is no magic anecdote that will make you understand it and there's no a-ha! moment, because at its core this is a feature of the mathematical underlying model. But before explaining what a "gauge" symmetry is, we need to explain what symmetry is in general mathematical terms and there's a bit of confusion going around: when people think of the term *symmetry*, they think about this sort of thing, but it's important to point out this is a specific kind of symmetry -- it's *mirror symmetry* which is simply *invariance* under flipping the object around an axis (and this symmetry corresponds to that particular axis).
 
-![butterfly](/images/misc/butterfly.jpg){:class="img-responsive"} ![spherical](/images/misc/spherical.png)
+![butterfly](/images/misc/butterfly.jpg){:class="img-responsive"}
 
 A sphere embedded in 3D space has a continuous symmetry -- it's invariant under arbitrary small rotations in any direction. A cube on the other end is invariant under rotations of 90 degrees.
 

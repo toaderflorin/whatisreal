@@ -10,7 +10,7 @@ When Lagrange discovered his brilliant reformulation of Newtonian mechanics, he 
 
 ![commodus](/images/lagrange/lagrange.jpg){:class="img-responsive"}
 
-*Physics problems are hard, and a lot of discoveries are accidental.*
+*Physics problems are hard, and a lot of discoveries are accidental. And sometimes things are hiding in plain sight.*
 
 In the age of computers, we take our ability to run numerical simulations for granted, but remember that even Newton had to invent calculus just to be able to show that an inverse square law for gravity does indeed produce elliptical orbits for heavenly bodies just as Copernicus had predicted. Even then, more complicated problems such as the three-body problem are unsolvable analytically. If you have complications such as holonomic constraints (think of a bead-on-a-string type of problem), then things can get very complicated. 
 
