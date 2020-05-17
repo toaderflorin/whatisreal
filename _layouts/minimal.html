@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body style="background: white; color: #333; padding-top: 30px;">
+    <main aria-label="Content">
+      <div class="wrapper">
+        <p>
+          <a href="/">Go back</a>
+        </p>
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>

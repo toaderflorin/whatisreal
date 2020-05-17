@@ -1,13 +1,23 @@
 <header class="site-header" role="banner">
-  <div class="banner-inner">
-    <div class="wrapper banner-inner-title">
-      {% assign default_paths = site.pages | map: "path" %}
-      {% assign page_paths = site.header_pages | default: default_paths %}
-      <img src="/images/me.jpg" class="banner-pic"></img>
-      <a class="banner-site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      <p style="font-size: 15px;">
-        <i>“I sometimes have nightmares about a world of echoes in which there are only echoes, and echoes of echoes, and echoes of echoes of echoes—reverberating forever down the empty corridors of my mind.”</i></p>
+  <div id="abc" style="background: url(galaxy2.jpg); background-size: cover; position: fixed; left: 0; top: 0; bottom: 0; right: 0; z-index: 0;">
+    <div style="height: 100vh;">
+
+    </div>
+  </div>
+  
+  <div style="text-align: center; color: white;  margin-top: 50px; margin-bottom: 50px;">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}  
+    <div style="width: 600px; margin-left: auto; margin-right: auto; font-size: 16px; line-height: 140%;">
+      <p>
+        "Now he has departed from this strange world a little ahead of me. That means nothing. People like us, who believe in physics, 
+        know that the distinction between past, present and future is only a stubbornly persistent illusion."
+      </p>
+      <p>
+        Albert Einstein
       </p>
     </div>
   </div>
+
+
 </header>
