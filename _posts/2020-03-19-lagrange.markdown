@@ -60,4 +60,4 @@ Turns out the answer is quantum mechanics. In QM, particles take all available p
 
 ![commodus](/images/lagrange/least-action.svg){:style="width: 550px;"}
 
-If you are reading this and wondering *how something can be spread out and at the same time in one place when it’s interacting with something else*, you’ve asked the million-dollar question. Another thing you might have noticed is that light travels in a straight line only because that’s the shortest-time path absent of differences in the medium's density. If space is emergent, that's what directions *are?*
+If you are reading this and wondering *how something can be spread out and at the same time in one place when it’s interacting with something else*, you’ve asked the million-dollar question. Another thing you might have noticed is that light travels in a straight line only because that’s the shortest-time path absent of differences in the medium's density. If space is emergent, is that what directions *are?*
