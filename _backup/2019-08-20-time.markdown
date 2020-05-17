@@ -22,7 +22,9 @@ But because of the constancy of the speed of light, this plane depends on the ob
 
 When his friend, Michelle Basso died in early 1955, Einstein wrote to Basso's family:  
 
-*"Now he has departed from this strange world a little ahead of me. That signifies nothing. For those of us who believe in physics, the distinction between past, present and future is only a stubbornly persistent illusion."*
+<div style="color: #000;">
+"Now he has departed from this strange world a little ahead of me. That signifies nothing. For those of us who believe in physics, the distinction between past, present and future is only a stubbornly persistent illusion."
+</div>
 
 He would follow him soon after, but those words stuck with his contemporaries. Isn't that a weird thing to say? Well, relativity is weird. Before Einstein, things were fairly simple -- you have space which is nice and flat and you have stuff that fills this space. If you want to calculate distances or angles between points, you can do that easily. Whether you are doing your calculations in two dimensions, or in three, it's pretty simple, you just use Pythagora's theorem. Physicists look for patterns, for symmetries and if we look at the space around us, there doesn't seem to be a preferred direction or location.
 

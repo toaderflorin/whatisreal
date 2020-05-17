@@ -1,14 +1,14 @@
-<header class="site-header" role="banner">
+<header class="site-header" role="banner" style=" background-color: rgba(0, 0, 0, 0.7); height: 200px; backdrop-filter: blur(2px); box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.5); margin-bottom: 80px;">
   <div id="abc" style="background: url(galaxy2.jpg); background-size: cover; position: fixed; left: 0; top: 0; bottom: 0; right: 0; z-index: 0;">
     <div style="height: 100vh;">
 
     </div>
   </div>
   
-  <div style="text-align: center; color: white;  margin-top: 50px; margin-bottom: 50px;">
+  <div style="text-align: center;  padding-top: 50px; margin-bottom: 50px; font-size: 14px; color: #ddd;">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}  
-    <div style="width: 600px; margin-left: auto; margin-right: auto; font-size: 16px; line-height: 140%;">
+    <div style="width: 600px; margin-left: auto; margin-top: 30px; margin-right: auto; line-height: 140%;">
       <p>
         "Now he has departed from this strange world a little ahead of me. That means nothing. People like us, who believe in physics, 
         know that the distinction between past, present and future is only a stubbornly persistent illusion."
