@@ -10,7 +10,7 @@ When Lagrange discovered his brilliant reformulation of Newtonian mechanics, he 
 
 ![commodus](/images/lagrange/lagrange.jpg){:class="img-responsive"}
 
-*Physics problems are hard, and a lot of discoveries are accidental.*
+*Physics problems are hard, and a lot of discoveries are accidental. And sometimes things are hiding in plain sight.*
 
 In the age of computers, we take our ability to run numerical simulations for granted, but remember that even Newton had to invent calculus just to be able to show that an inverse square law for gravity does indeed produce elliptical orbits for heavenly bodies just as Copernicus had predicted. Even then, more complicated problems such as the three-body problem are unsolvable analytically. If you have complications such as holonomic constraints (think of a bead-on-a-string type of problem), then things can get very complicated. 
 
@@ -44,7 +44,7 @@ where the Lagrangian is the difference between kinetic and potential energy.
 
 For a detailed derivation, see this MathPages [article](https://www.mathpages.com/home/kmath523/kmath523.htm). *q* are generalized coordinates (they can be curved, but the curves have to be smooth), and *r* are cartesian coordinates, meaning we can express *r(q)* as a parametric surface or curve. In the case of our pendulum, *q* can be the angle. The generalized coordinates are usually less than the number of cartesian coordinates because of the constraints, but they don't have to be: we can simply choose *different* coordinates that make solving our problem easier, such as spherical coordinates.
 
-But as elegant as this equation is, it turns out there's an even simpler idea, and we can derive Lagrange's equation from it: the principle of least action. We can define the *action* as the integral of the Lagrangian over an arbitraty choosen path. 
+But as elegant as this equation is, it turns out there's an even simpler idea, and we can derive Lagrange's equation from it: the principle of least action. We can define the *action* as the integral of the Lagrangian over an arbitrary choosen path. 
 
 ![commodus](/images/lagrange/action.svg){:class="img-responsive"}
 
@@ -60,4 +60,4 @@ Turns out the answer is quantum mechanics. In QM, particles take all available p
 
 ![commodus](/images/lagrange/least-action.svg){:style="width: 550px;"}
 
-If you are reading this and wondering *how something can be spread out and at the same time in one place when it’s interacting with something else*, you’ve asked the million-dollar question. Another thing you might have noticed is that light travels in a straight line only because that’s the shortest-time path absent of differences in the medium's density. If space is emergent, that's what directions *are?*
+If you are reading this and wondering *how something can be spread out and at the same time in one place when it’s interacting with something else*, you’ve asked the million-dollar question. Another thing you might have noticed is that light travels in a straight line only because that’s the shortest-time path absent of differences in the medium's density. If space is emergent, is that what directions *are?*
