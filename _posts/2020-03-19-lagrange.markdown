@@ -39,7 +39,7 @@ The Euler-Lagrange equation looks like:
 ![commodus](/images/lagrange/euler-lagrange.svg){:class="img-responsive"}
 
 where the Lagrangian is the difference between kinetic and potential energy. 
-
+`
 ![commodus](/images/lagrange/langrangian-diff.svg){:class="img-responsive"}
 
 For a detailed derivation, see this MathPages [article](https://www.mathpages.com/home/kmath523/kmath523.htm). *q* are generalized coordinates (they can be curved, but the curves have to be smooth), and *r* are cartesian coordinates, meaning we can express *r(q)* as a parametric surface or curve. In the case of our pendulum, *q* can be the angle. The generalized coordinates are usually less than the number of cartesian coordinates because of the constraints, but they don't have to be: we can simply choose *different* coordinates that make solving our problem easier, such as spherical coordinates.
